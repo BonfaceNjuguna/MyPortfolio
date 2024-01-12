@@ -22,7 +22,7 @@
     top: 0;
     z-index: 999;
     width: 100%;
-    background: #202020;
+    background: black;
 }
 .logo{}
 .logo a{
@@ -335,31 +335,16 @@
     position: relative;
 }
 .section-title h2:before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 5px;
-    width: 55px;
-    background-color: #202020;
+    display: none;
 }
 .section-title h2:after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 2px;
-    height: 1px;
-    width: 255px;
-    background-color: #202020;
+    display: none;
 }
 .section-title h2.txt2_is_show:after{
-    width: 0;
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
+    display: none;
 }
 .section-title h2.is_show:after{
-    width: 255px;
+    display: none;
 }
 .abt-content p{
     font-size: 14px;
@@ -574,6 +559,7 @@
 *=============================================*/
 .contact-area{
     position: relative;
+    text-align: center !important;
 }
 .contact-area .section-title{
     margin-bottom: 60px;
