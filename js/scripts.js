@@ -396,8 +396,8 @@ $(document).ready(function() {
                 }
             });
 
-            // Handle Project URL
-            if (projectData.projectUrl) {
+            // Handle Project URL (only show if status is 'Completed' and URL exists)
+            if (projectData.status === 'Completed' && projectData.projectUrl) {
                 const projectLink = $('#project-link');
                 projectLink.attr('href', projectData.projectUrl);
                 projectLink.show();
