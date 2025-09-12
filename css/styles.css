@@ -683,3 +683,38 @@
 /*============================================
 * END Footer Area
 *=============================================*/
+
+/*============================================
+* 8. Project Details Page
+*=============================================*/
+.project-details-area .list-inline-item {
+    background: #f0f0f0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.project-gallery-wrapper {
+    /* Isotope now handles layout */
+}
+
+.project-gallery-wrapper .gallery-item {
+    padding: 0 8px; /* Gutter spacing */
+}
+
+.project-gallery-wrapper .gallery-item .img-thumbnail {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 4px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.project-gallery-wrapper .gallery-item .img-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
