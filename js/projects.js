@@ -1,4 +1,3 @@
-
 const projects = [
   {
     id: 'nawirides',
@@ -15,7 +14,7 @@ const projects = [
   {
     id: 'apuuzawadi',
     title: 'Apuu Zawadi',
-    status: 'In Progress',
+    status: 'Completed',
     projectUrl: '#', // Replace with actual URL
     description: 'An e-commerce platform specializing in gift items. Users can browse products, add to cart, and checkout securely.',
     screenshots: [
@@ -54,9 +53,32 @@ const projects = [
     projectUrl: 'https://susannedunkel.com/',
     description: 'This project involved creating a minimalist and visually-driven portfolio website for Susanne Dunkel, a creative director with over 15 years of experience in design and brand strategy. The website serves as a digital gallery, showcasing a curated selection of high-profile projects for clients like Occhio, Axor, and BMW. The focus was on a clean, image-forward design with intuitive navigation to effectively communicate a puristic and aesthetic-driven professional identity.',
     screenshots: [
-        'img/portfolio/sussanedunkel/sussanedunkel.png',
+      'img/portfolio/sussanedunkel/sussanedunkel.png',
+
     ],
     techStack: ['WordPress', 'PHP', 'CSS3', 'JavaScript'],
     designTools: []
+  },
+  {
+    id: 'lodwar-fish-hub',
+    title: 'Lodwar Fish Hub',
+    status: 'In Progress',
+    description: 'A comprehensive e-commerce mobile application for Lodwar Fish Hub, currently in development. Built with Flutter, the app will allow customers to browse and purchase a wide variety of fish, available raw, fried, or smoked, streamlining the ordering process for local customers.',
+    screenshots: [
+        'img/portfolio/lodwarfishhub/lodwar_fish_hub.jpeg',
+    ],
+    techStack: ['Flutter', 'Dart'],
+    designTools: ['Figma']
+  },
+  {
+    id: 'sarah-fitness-app',
+    title: 'Sarah Fitness App',
+    status: 'In Progress',
+    description: 'An all-in-one fitness application, currently in development using Flutter. This app will provide users with a comprehensive suite of tools to achieve their fitness goals, including guided workout routines, custom meal and workout plan creation, and a direct chat feature to communicate with their coach. The goal is to create a seamless and motivating experience for users on their fitness journey.',
+    screenshots: [
+        'img/portfolio/sarahfitness/sarah_fitness_app.jpg',
+    ],
+    techStack: ['Flutter', 'Dart'],
+    designTools: ['Figma']
   }
 ];
