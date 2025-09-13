@@ -104,5 +104,43 @@ const projects = [
     ],
     techStack: ['React (TypeScript)', 'Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Docker'],
     designTools: []
+  },
+  {
+    id: 'turkhealth',
+    title: 'TurkHealth',
+    status: 'In Progress',
+    projectUrl: '#',
+    description: 'A mobile-first public health web application, currently in development, designed to serve the Turkana community. Built with a React (TypeScript) frontend and a Python backend, TurkHealth will offer critical, multilingual support in English, Swahili, and Turkana. Key features include an emergency reporting system that alerts nearby clinics, complete with image uploads for incidents like snakebites. The app will also feature an innovative AI-powered system for identifying venomous creatures from photos and a chatbot that provides first-aid and symptom-based recommendations using verified health information.',
+    screenshots: [
+        'img/portfolio/turkhealth/turkhealth1.png',
+        'img/portfolio/turkhealth/turkhealth2.png',
+        'img/portfolio/turkhealth/turkhealth3.png',
+        'img/portfolio/turkhealth/turkhealth4.png',
+        'img/portfolio/turkhealth/turkhealth5.png',
+        'img/portfolio/turkhealth/turkhealth6.png',
+    ],
+    techStack: ['React (TypeScript)', 'Python', 'AI/ML'],
+    designTools: ['Figma']
+  },
+  {
+    id: 'loropio-kitchen',
+    title: 'Loropio Kitchen',
+    status: 'In Progress',
+    projectUrl: '#',
+    description: 'A comprehensive meal booking web application for Loropio Kitchen, currently in development. The platform is being built with a robust C# backend and a modern React (TypeScript) frontend. It will enable customers to easily book their meals and pay through various methods, including M-Pesa, cash, or loyalty points. The system also features a dedicated dashboard for kitchen staff to manage daily meal offerings—including breakfast, lunch, dinner, and specials—and to track all incoming orders.',
+    screenshots: [
+        'img/portfolio/loropiokitchen/loropiokitchen1.png',
+        'img/portfolio/loropiokitchen/loropiokitchen2.png',
+        'img/portfolio/loropiokitchen/loropiokitchen3.png',
+        'img/portfolio/loropiokitchen/loropiokitchen4.png',
+        'img/portfolio/loropiokitchen/loropiokitchen5.png',
+        'img/portfolio/loropiokitchen/loropiokitchen6.png',
+        'img/portfolio/loropiokitchen/loropiokitchen7.png',
+        'img/portfolio/loropiokitchen/loropiokitchen8.png',
+        'img/portfolio/loropiokitchen/loropiokitchen9.png',
+        'img/portfolio/loropiokitchen/loropiokitchen10.png',
+    ],
+    techStack: ['React (TypeScript)', 'C#', '.NET', 'PostgreSQL', 'Docker'],
+    designTools: ['Figma']
   }
 ];
