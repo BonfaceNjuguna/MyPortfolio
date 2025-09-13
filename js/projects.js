@@ -53,8 +53,7 @@ const projects = [
     projectUrl: 'https://susannedunkel.com/',
     description: 'This project involved creating a minimalist and visually-driven portfolio website for Susanne Dunkel, a creative director with over 15 years of experience in design and brand strategy. The website serves as a digital gallery, showcasing a curated selection of high-profile projects for clients like Occhio, Axor, and BMW. The focus was on a clean, image-forward design with intuitive navigation to effectively communicate a puristic and aesthetic-driven professional identity.',
     screenshots: [
-      'img/portfolio/sussanedunkel/sussanedunkel.png',
-
+        'img/portfolio/sussanedunkel/sussanedunkel.png',
     ],
     techStack: ['WordPress', 'PHP', 'CSS3', 'JavaScript'],
     designTools: []
@@ -80,5 +79,30 @@ const projects = [
     ],
     techStack: ['Flutter', 'Dart'],
     designTools: ['Figma']
+  },
+  {
+    id: 'tourism-turkana',
+    title: 'Tourism Turkana Website',
+    status: 'Completed',
+    projectUrl: 'https://tourism.turkana.go.ke/',
+    description: 'This project is a comprehensive tourism and cultural portal for Turkana County, designed to promote the region as a premier travel destination. The platform serves as a central hub for tourists, featuring detailed guides to destinations, accommodations, and a showcase of the area\'s rich cultural heritage. Key functionalities include an e-commerce section for local products, a directory for hoteliers, and a news module for upcoming events.',
+    screenshots: [
+        'img/portfolio/tourismturkanacounty/tourism1.png',
+        'img/portfolio/tourismturkanacounty/tourism2.png',
+    ],
+    techStack: ['WordPress', 'PHP', 'CSS3', 'JavaScript'],
+    designTools: []
+  },
+  {
+    id: 'cis-turkana',
+    title: 'Climate Information System (CIS)',
+    status: 'In Progress',
+    projectUrl: 'https://cis.turkana.go.ke/',
+    description: 'Currently in development, the Turkana County Climate Information System is a comprehensive platform designed to provide timely and accurate weather data to support decision-making in the region. Inspired by national meteorological systems, the final product will deliver a range of forecasting products, early warnings for extreme weather events, and specialized agrometeorological bulletins to support pastoralists, farmers, and water resource managers.',
+    screenshots: [
+        'img/portfolio/cisturkanacounty/cis1.png',
+    ],
+    techStack: ['React (TypeScript)', 'Node.js', 'Python', 'FastAPI', 'PostgreSQL', 'Docker'],
+    designTools: []
   }
 ];
